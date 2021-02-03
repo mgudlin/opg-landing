@@ -1,0 +1,49 @@
+/*  Color pallete  */
+
+:root {
+    --white:#f6f5f5;
+    --light-blue:#d3e0ea;
+    --dark-blue:#276678;
+    --blue:#1687a7;
+}
+
+/* GENERAL STYLES */
+
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--blue);
+    background-color: var(--white);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-blue);
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* HEADER*/
+
+.gradient {
+    background: rgb(246,245,245);
+    background: -webkit-linear-gradient(35deg, rgba(246,245,245,1) 0%, rgba(211,224,234,1) 100%);
+    background: -o-linear-gradient(35deg, rgba(246,245,245,1) 0%, rgba(211,224,234,1) 100%);
+    background: linear-gradient(125deg, rgba(246,245,245,1) 0%, rgba(211,224,234,1) 100%);
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+
+}
+
+
+.page-header img {
+    max-width: 650px;
+    padding: 30px;
+}
