@@ -82,3 +82,14 @@ h2 {
 .gallery img {
   border-radius: 5%;
 }
+
+img.smol {
+  width: 600px;
+}
+
+/* Footer */
+footer {
+  margin-top: 100px;
+  padding: 50px 0 50px 0;
+  color: green;
+}
